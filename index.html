@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title></title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>take the survey below to find out what star wars character you are most like!</h1>
+    <form id="test">
+      <label for="weapon">what is your weapon of choice?</label>
+      <select id="weapon">
+        <option value="1">Blaster</option>
+        <option value="2">Staff</option>
+        <option value="3">Lightsaber</option>
+        <option value="4">Melee</option>
+      </select><br>
+
+      <label for="color">What is your favorite color?</label>
+      <select id="color">
+        <option value="1">Red</option>
+        <option value="2">Green</option>
+        <option value="3">BLue</option>
+        <option value="4">Black</option>
+      </select><br>
+
+
+      <button type="btn" name="button">go!</button>
+
+    </form>
+    <div id="results">
+      <p>you are most like <span id="character"></span></p>
+    </div>
+  </div>
+</body>
+</html>
