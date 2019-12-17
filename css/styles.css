@@ -11,6 +11,7 @@ button {
   padding: 40px;
   border-radius: 25%;
   background-color: lightgreen;
+  float: left;
 }
 #results {
   display: none;
@@ -28,8 +29,10 @@ button {
   font-size: 1.25em;
 }
 .container h1 {
+  background-color: rgba(51, 153, 102, .5);
   font-family: fantasy;
   text-align: center;
+  padding: 5px;
 }
 
 #weapon {
@@ -43,4 +46,13 @@ button {
 #rebels {
   color: black;
   margin: 15px;
+}
+#leap {
+  margin: 5px;
+  width: 40%;
+  background-color: rgba(255, 255, 0, 2.0);
+  float: left;
+}
+#leap-year {
+  background-color: rgba(255, 153, 102, .7);
 }
