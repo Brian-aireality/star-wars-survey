@@ -1,3 +1,46 @@
+body {
+  background-color: black;
+}
+button {
+  margin: 5px;
+  color: black;
+}
+#base {
+  width: 40%;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 25%;
+  background-color: lightgreen;
+}
 #results {
   display: none;
+  background-color: lightyellow;
+  font-size: 3em;
+  float: right;
+  margin: 20px;
+  border: dashed red 8px;
+  padding: 40px;
+}
+#test {
+  background-color: rgba(102, 0, 102, 0.8);
+  padding: 10px;
+  color: white;
+  font-size: 1.25em;
+}
+.container h1 {
+  font-family: fantasy;
+  text-align: center;
+}
+
+#weapon {
+  color: black;
+  margin: 15px;
+}
+#color {
+  color: black;
+  margin: 15px;
+}
+#rebels {
+  color: black;
+  margin: 15px;
 }

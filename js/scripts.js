@@ -6,13 +6,13 @@ $(document).ready(function() {
   var score = weapon + color;
 
   if (score > 5) {
-    var character = "han solo"
-    $("#han").show();
-    $("#luke").hide();
-  } else if(score <= 4) {
-    var character = "luke skywalker"
-    $("#luke").show();
-    $("#han").hide();
+    var character = "Han Solo"
+    $("#Han").show();
+    $("#Luke").hide();
+  } else if(score <=  4) {
+    var character = "Luke Skywalker"
+    $("#Luke").show();
+    $("#Han").hide();
   }
   $("#character").text(character);
   $("#results").show();
